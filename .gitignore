@@ -2,10 +2,14 @@
 node_modules
 /dist
 
-
 # local env files
 .env.local
 .env.*.local
+
+# env files
+.env.development
+.env.staging
+.env.production
 
 # Log files
 npm-debug.log*
@@ -15,9 +19,11 @@ pnpm-debug.log*
 
 # Editor directories and files
 .idea
-.vscode
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
+
+# firebase
+.firebase
